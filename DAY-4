@@ -1,0 +1,328 @@
+# name = 'prashant'
+# data = ['a','e','i','o','u']
+# vowel = 0
+# conso = 0
+
+# for i in name:
+#     if i in data:
+#         vowel += 1
+#     else:
+#         conso += 1
+
+# print("vowel =", vowel)
+# print("consonant =", conso)
+
+# name = "programming"
+# result = ""
+
+# for i in name:
+#     if i not in result:
+#         result = result + i
+
+# print("String after removing duplicates:", result)
+
+# name = "programming"
+# vowels = "aeiou"
+# result = ""
+
+# for i in name:
+#     if i not in vowels:
+#         result = result + i
+
+# print("String after removing vowels:", result)
+# BODMAS expressions
+# exp1 = 10 + 5 * 2
+# exp2 = (8 + 4) * 3
+# exp3 = 20 - 6 / 2 + 3
+
+# print("Expression 1 Result =", exp1)
+# print("Expression 2 Result =", exp2)
+# print("Expression 3 Result =", exp3)
+
+# x=['A','B','C']
+# y=['A','B','C']
+# z=[1,2,3,4]
+# print(x==y)
+# print(x==z)
+# print(x != z)
+
+# mylist = [2, 5, 8, 4, 1, 9, 8]
+# even = 0
+# odd = 0
+# for i in mylist:
+#     if i % 2 == 0:
+#         even += 1
+#     else:
+#         odd += 1
+
+# print("even =", even)
+# print("odd =", odd)
+
+
+
+# mylist = [2, 5, 8, 4, 1, 9, 8]
+
+# total = 0
+
+# for i in mylist:
+#     total += i
+
+# print("Sum =", total)    
+
+
+
+# val = [1, 2, 3, 5, 5, 5, 1, 2, 4, 4, 6, 6, 6]
+
+# print(val.index(1))
+# print(val.index(2))
+# print(val.index(3))
+# print(val.index(4))
+# print(val.index(5))
+# print(val.index(6))
+
+# n = [1, 2, 3, 5, 5, 5, 1, 2, 4, 4, 6, 6, 6]
+
+# print(n.count(1))
+# print(n.count(2))
+# print(n.count(3))
+# print(n.count(4))
+# print(n.count(5))
+# print(n.count(6))
+# print(n.count(7)) 
+
+# rollno = [3, 5, 7, 1, 11, 4, 5, 2]
+# for x in rollno:
+#     if x == 2 or x == 4 or x == 6 or x == 8 or x == 10:
+#         print("even no is found ", x)
+#         break
+
+# name = "prashant"
+# i = 0
+
+# for x in name:
+#     if x == 'n':
+#         print("The character present at index no ", i, ", value:", x)
+#         break
+#     i = i + 1   
+
+# for i in range(10):
+#     if i == 5:
+#         continue
+#     print(i)
+
+# list1 = [1, 2, 4, 5]
+# list2 = [5, 4, 2, 1]
+
+# for i in range(len(list1)):
+#     print(list1[i], list2[i])
+
+# for i, j in zip(range(1,6), range(6,0,-1)):  # i=1..4, j=?
+#     if i == 3 and j == 3:
+#         continue
+#     print(i, ":", j)
+
+# ch = input("Enter any character: ")
+
+# if ch.isupper():
+#     print("Uppercase Letter")
+# elif ch.islower():
+#     print("Lowercase Letter")
+# elif ch.isdigit():
+#     print("Digit")
+# else:
+#     print("Special Symbol")
+
+# ch = ord(input("Enter any charecter"))  # 0 = 48
+
+# # ord function used to convert in ASCII code
+
+# if ch >= 65 and ch <= 91:   # A = 65
+#     print("your entered charecter is in upper case")
+
+# elif ch >= 97 and ch <= 122:   # a = 97
+#     print("your entered charecter is in lower case")
+
+# elif ch >= 48 and ch <= 57:   # 0 = 48
+#     print("your entered charecter is digit")
+
+# else:
+#     print("your entered charecter is in special symbols")
+
+# v = ['a', 'e', 'i', 'o', 'u']
+
+# w = input("Enter the word where we will search the vowels: ")
+# # w = prashantjha
+
+# found = []   # a
+
+# for i in w:  # i = 6 : n
+#     if i in v:
+#         if i not in found:
+#             found.append(i)
+
+# print("Found vowels =", found)
+# print("Unique vowels", len(found), "from the given word =", w)
+
+# # i=1
+# # while i<=5:
+# #     print(i)
+# #     i=i+1
+
+# mycart = [10, 20, 200, 300, 800, 60, 700]
+
+# for i in mycart:
+#     if i > 400:
+#         print("This my purchased cart item")
+#         continue
+#     print(i) 
+
+# mydict = {
+#     101: "prashant",
+#     102: "sahil",
+#     "103": "nikhil",
+#     "104": "triveni",
+#     101: "atul",
+#     104: "sachin"
+# }
+
+# print(mydict)
+# a = mydict[102]
+# print(mydict)
+
+# for x in mydict:
+#     print(x)
+
+
+# mydict = {101: "rahul", 102: "rohan", 103: "amit"}
+
+# # Access the value using key
+# a = mydict[102]
+# print(a)
+
+# # Update the value of a key
+# mydict[102] = "pavan"
+
+# print(mydict)
+
+# for x in mydict.values():
+#     print(x)
+
+# # Printing Key and Values both
+# for x, y in mydict.items():
+#     print(x, y)
+
+# # Printing key and values
+# for x, y in mydict.items():
+#     print(x, y)
+
+# # If I have to add new key and value pair
+# mydict["mobile_no"] = 4646463738
+# print(mydict)
+
+# mydict["Department"] = "Management"
+# print(mydict)
+
+# # dict - if we want to represent binary data like images etc
+
+# mydict = {
+#     101: "prashant",
+#     "professional": "developer",
+#     "empid": 1001
+# }
+
+# mydict.pop(101)
+# print(mydict)
+
+# # pop() will remove pair by specific key name
+
+# str1 = input("Enter a string: ")
+
+# rev = str1[::-1]
+
+# if str1 == rev:
+#     print("The string is a palindrome")
+# else:
+#     print("The string is not a palindrome")
+
+#nested for loop
+#i=2, j=4
+
+# for i in range(1,4):   #outer loop ==> row's
+#     for j in range(1,4):   #inner loop ==> col's
+#         print(i, end=" ")
+#     print()
+
+# n = int(input("Enter the number of rows: "))
+# for i in range(1, n+1):
+#     for j in range(1, n+1):
+#         print(chr(64+i), end=" ")
+#     print()
+
+# n = int(input("Enter the number of rows: "))
+
+# for i in range(1, n+1):
+#     for j in range(1, n+1):
+#         print(n+1-i, end=" ")
+#     print()
+
+# n = int(input("Enter the number of rows: "))
+
+# for i in range(1, n+1):
+#     for j in range(1, 1+i):
+#         print(i, end=" ")
+#     print()
+
+# while True:
+#     name = input("Enter Student Name to get Marks: ")
+#     marks = d.get(name, -1)
+
+#     if marks == -1:
+#         print("Student Not Found")
+#     else:
+#         print("The Marks of", name, "are", marks)
+
+#     option = input("Do you want to find another student marks [Yes|No]")
+#     if option == "No":
+#         break
+
+# print("Thanks for using our application")
+
+# d = {"Rahul": 85, "Pavan": 90, "Amit": 78}
+
+# while True:
+#     name = input("Enter Student Name to get Marks: ")
+#     marks = d.get(name, -1)
+
+#     if marks == -1:
+#         print("Student Not Found")
+#     else:
+#         print("The Marks of", name, "are", marks)
+
+#     option = input("Do you want to find another student marks [Yes|No]: ")
+#     if option == "No":
+#         break
+
+# # print("Thanks for using our application")
+
+# n = int(input("Enter the number of students: "))
+# d = {}
+
+# for i in range(n):
+#     name = input("Enter Student Name: ")
+#     marks = input("Enter Student Marks: ")
+#     d[name] = marks
+
+# while True:
+#     name = input("Enter Student Name to get Marks: ")
+#     marks = d.get(name, -1)
+
+#     if marks == -1:
+#         print("Student Not Found")
+#     else:
+#         print("The Marks of", name, "are", marks)
+
+#     option = input("Do you want to find another student marks [Yes|No]: ")
+#     if option == "No":
+#         break
+
+# print("Thanks for using our application")
