@@ -1,0 +1,150 @@
+# #function
+# def msg(): # called function
+#     print("hello world")
+
+# msg() # calling function
+
+
+
+# #function
+# def msg(): # called function
+#     val1 = int(input("enter the 1 number"))
+#     val2 = int(input("enter the 2 number"))
+
+#     print(val1+val2)
+
+# msg() # calling function
+
+
+
+#function
+# def msg(): # called function
+#     val1 = int(input("enter the 1 number"))
+#     val2 = int(input("enter the 2 number"))
+
+#     #print(val1+val2)
+#     return val1+val2
+# print(msg()) # calling function
+
+
+# def msg(): # called function
+#     val1 = int(input("enter the 1 number"))
+#     val2 = int(input("enter the 2 number"))
+
+#     print(val1+val2)
+#     res = msg()
+# print(msg()) # calling function
+
+
+# def msg(): # called function
+#     val1 = int(input("enter the 1 number"))
+#     val2 = int(input("enter the 2 number"))
+
+#     sum = (val1+val2) 
+#     sub = (val1-val2) 
+#     mul = (val1*val2)
+#     div = (val1/val2) 
+#     return sum, sub, mul, div 
+    
+
+#     res = msg()
+
+# print("result:", res) # calling function
+
+
+# def personalInfo(fname, lname):
+#     print("First name:", fname)
+#     print("Last name:", lname)
+
+# personalInfo("veethika", "shrivastava")
+
+
+# def personalInfo(fname, lname):
+#     print("First name:", fname)
+#     print("Last name:", lname)
+
+
+# fname = "veethika"
+# lname = "shrivastava"
+# personalInfo(fname, lname)
+
+
+
+# def cityName(city="nagpur"):
+#     print("City Name :",city)
+
+
+# cityName("Mumbai")
+# cityName("Delhi")
+# cityName()
+
+
+
+# def cityName(*city):
+#     print("City Name :",city)
+
+
+# cityName("Mumbai","nagpur", "delhi", "pune")
+
+
+
+# def login():
+#     username = input("enter username:")
+#     password = input("enter password")
+
+#     if username == password:
+#         print("login successfully")
+#     else:
+#         print("invalid credentials")
+# login()
+
+
+
+# mylist = [4,2,7,8,5,4,1]
+# def searchValue(target):
+#     for i in range(len(mylist)):
+#         print(mylist[i])
+    
+# target = 7 
+# searchValue(target)
+
+
+
+
+# def searchValue(target):
+#     for i in range(len(mylist)):
+#         if mylist[i] == target:
+#             return i
+#     return -1
+
+# mylist = [4, 2, 7, 8, 5, 4, 1]
+# target = 10
+
+# res = searchValue(target)
+
+# if res != -1:
+#     print("Value found at index =", res)
+# else:
+#     print("Value not found")
+
+
+
+# def searchValue(target):
+#     for i in range(len(mylist)):
+#         if mylist[i] == target:
+#             return i
+#     return -1
+
+# mylist = [4, 2, 7, 8, 5, 4, 1]
+# target = 10
+
+
+# total = sum(mylist)
+# print("Sum of elements =", total)
+
+# res = searchValue(target)
+
+# if res != -1:
+#     print("Value found at index =", res)
+# else:
+#     print("Value not found")
