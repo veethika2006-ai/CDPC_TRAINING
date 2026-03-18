@@ -1,0 +1,72 @@
+# s = "veethika*is*a*good*programmer*"
+
+# count = s.count('*')          
+# clean = s.replace('*', '')    
+
+# result = '*' * count + clean + '*' * count
+
+# print(result)
+
+
+
+# name = 'prashant*is*a*good*programmer'
+# newname=''   # for characters
+# val=''       # for '*'
+
+# for i in name:
+#     if i != '*':
+#         newname += i
+#     else:
+#         val += i
+
+# print(newname)
+# print(str(val + newname))
+
+
+# mylist =[] #10,11,7,12,14
+# sum=0
+# N = int(input("Enter the value of N:"))
+# for i in range(N):
+#     val = int(input("Enter the value"))
+#     mylist.append(val)
+#     for j in range(len(mylist)):
+#         if j+1 in range(len(mylist)):
+#             sum+=abs(mylist[j] - mylist[j+1])
+#             print(sum)
+
+# list = [3, 2, 3, 8, 7, 6, 3, 4]
+# max_val = 0 # It's better to use 'max_val' because 'max' is a built-in Python function
+
+# for i in list:
+#     if i > max_val:
+#         max_val = i  # Update the record if a larger number is found
+
+# print("The largest number is:", max_val)
+
+
+# list = [3, 2, 3, 8, 7, 6, 3, 4]
+# max = 0 
+
+# for i in list:
+#     if i > max:
+#         max = i
+
+# print(max)
+
+# text = "hello world"
+# # Using the built-in replace method
+# result = text.replace(" ", "")
+# print(result) # Output: helloworld
+
+
+# sentence = "This is a sentence."
+# words = sentence.split() # Splits by any whitespace by default
+# print(len(words)) # Output: 4
+
+
+# text = "Reverse these words"
+# words = text.split()          # ['Reverse', 'these', 'words']
+# reversed_words = words[::-1] # ['words', 'these', 'Reverse']
+# result = " ".join(reversed_words)
+# print(result) # Output: words these Reverse
+
